@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:1000');
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*@media (max-width: 890px) and (min-width: 540px){
+		
+	}*/
+
+.row {
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Header Styling*/
+
+.header {
+	display: flex;
+	justify-content: center;
+	background-color: #02074F;
+	padding: 5px 20px;
+}
+
+.logo {
+	padding: 20px 0px 30px 0px;
+}
+
+/*Body Styling*/
+
+.email-body {
+	background-color: #FFFFFF;
+	color: black;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 60px 25%;
+}
+
+.title-text {
+	font-weight: bold;
+	font-size: 25px;
+	font-family: ;
+	padding: 0px 0px 10px 0px;
+}
+
+.body-text {
+	text-align: left;
+	font-size: 12px;
+}
+
+.signature {
+	font-weight: 700;
+}
+
+
+/*Footer Styling*/
+
+.footer {
+	background-color: #02074F;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 25px 25%;
+}
+
+.social-links {
+	padding:0px 0px 15px 0px;
+}
+
+.icon {
+	padding: 0px 5px 0 0;
+}
